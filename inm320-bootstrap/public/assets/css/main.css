@@ -1,0 +1,128 @@
+ .row {
+  background-color: #F7F8FC
+}
+
+#sidebar {
+  background-color:#363740
+}
+
+.card-body {
+  border-radius: 8px;
+  border: 1px solid var(--grayscale-divider, #DFE0EB);
+  background: var(--grayscale-white, #FFF);
+}
+
+/* Styling for the first card */
+#unresolved-card {
+  color: var(--grayscale-gray, #9FA2B4);
+  text-align: center;
+  
+  /* Bold 19 (0.4 px) */
+  font-family: Muli;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.4px;
+}
+
+/* Styling for the second card */
+#overdue-card {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid var(--accent-default, #3751FF);
+  color: var(--accent-default, #3751FF);
+
+}
+.card-text-blue {
+  color: var(--accent-default, #3751FF);
+  text-align: center;
+}
+
+/* Styling for the third card */
+#open-card {
+  color: var(--grayscale-gray, #9FA2B4);
+  text-align: center;
+
+/* Bold 19 (0.4 px) */
+font-family: Muli;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+
+/* Styling for the fourth card */
+#on-hold-card {
+  color: var(--grayscale-gray, #9FA2B4);
+  text-align: center;
+
+/* Bold 19 (0.4 px) */
+font-family: Muli;
+font-size: 19px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.4px;
+}
+
+/* Styling for the custom  card */
+#custom-card {
+  color: var(--grayscale-black, #252733);
+  text-align: center;
+}
+
+#custom-card .card-title {
+  font-family: Muli;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+/* Styling for the unresolved-tickets & Task card */
+#unresolved-tickets .ticket-info {
+  display: flex;
+  paint-order: ;
+  align-items: baseline;
+  margin-bottom: 5px; /* Optional: Add margin between ticket descriptions */
+}
+
+#unresolved-tickets .ticket-info .card-text {
+  font-family: Muli;
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--grayscale-black, #252733);
+}
+
+#unresolved-tickets .ticket-info .ticket-number {
+  font-family: Muli;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: var(--grayscale-black, #252733);
+}
+
+/* Styling for Task card */
+#Task .task-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 5px; /* Optional: Add margin between task descriptions */
+}
+
+#Task .task-info .card-text {
+  font-family: Muli;
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--grayscale-black, #252733);
+}
+
+#Task .task-info .ticket-number {
+  font-family: Muli;
+  font-size: 19px;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  color: var(--grayscale-black, #252733);
+}
+
